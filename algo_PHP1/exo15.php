@@ -3,8 +3,9 @@ class person
 {
     // Properties
     public $nom ;
-    public $age ;
     public $prenom;
+    public $age ;
+   
    
     function __construct($c_nom,$c_prenom,$c_age)
     {
@@ -21,6 +22,7 @@ class person
     function set_nom($p_nom)
     {
         $this->nom = $p_nom;
+    }
      function get_prenom()
     {
         return $this->prenom;
@@ -28,10 +30,32 @@ class person
     function set_prenom($p_prenom)
     {
         $this->prenom = $p_prenom;
+    }
      function get_age()
     {
         return $this->age;
     }
     function set_age($p_age)
     {
-        $this-> age= $p_age;
+        $this->age= $p_age;
+    }
+    function id()
+    {
+        $date= new DateTime("now");
+        $diff=date_diff($this->get_age(),$date);
+        echo  $this->get_nom(). ", "  .$this->get_prenom() . ", " . $diff->format("'%y Year") . "<br>"; 
+        
+       
+        return;
+}
+    }
+
+echo '<br>';
+$date1=date_create("1980-02-19");
+$date2=date_create("1985-01-17");
+$a = new person("DUPONT", "Michel", $date1);
+$b = new person("DUCHEMIN", "Alice", $date2);
+
+$a->id();
+$b->id();
+    ?>
