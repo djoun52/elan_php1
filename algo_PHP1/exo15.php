@@ -44,7 +44,8 @@ class person
     function id()
     {
         $date= new DateTime("now");
-        $diff=date_diff($this->get_age(),$date);
+        $date1= new DateTime ($this->get_age());
+        $diff=date_diff($date1,$date);
         echo  $this->get_nom(). "  "  .$this->get_prenom() . " à " . $diff->format("%y ans") . "<br>"; 
         
        
@@ -53,10 +54,9 @@ class person
     }
 
 echo '<br>';
-$date1=date_create("1980-02-19");
-$date2=date_create("1985-01-17");
-$a = new person("DUPONT", "Michel", $date1);
-$b = new person("DUCHEMIN", "Alice", $date2);
+
+$a = new person("DUPONT", "Michel", "1980-02-19");
+$b = new person("DUCHEMIN", "Alice","1985-01-17");
 
 $a->id();
 $b->id();
