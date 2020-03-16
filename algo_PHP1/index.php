@@ -57,14 +57,14 @@
         </div>
         <hr>
         <div>
-            <a href=" ./exo6.php" title="exo6">exo6</a>
+            <a href=" ./exo6.php" title="exo6">exo6 fait</a>
             <p>
             Ecrire un algorithme permettant de calculer un montant de facture à régler à partir de la quantité d’articles, son prix hors taxe et un taux de TVA (exprimé en décimal. Ex : 20 % -> 0.2)
             </p>
         </div>
         <hr>
         <div>
-            <a href=" ./exo7.php" title="exo7">exo7</a>
+            <a href=" ./exo7.php" title="exo7">exo7 fait</a>
             <p>
             Ecrire un algorithme permettant de renvoyer la catégorie d’un enfant en fonction de son âge.
             </p>
@@ -78,7 +78,7 @@
         </div>
         <hr>
         <div>
-            <a href=" ./exo9.php" title="exo9">exo9</a>
+            <a href=" ./exo9.php" title="exo9">exo9 fait </a>
             <p>
             Nous souhaitons savoir si une personne est imposable en fonction de son âge et de son sexe. <br>
             Si la personne est une femme dont l’âge est compris entre 18 et 35 ans ou si c’est un homme de plus de 20 ans, alors celle-ci est imposable (sinon ce n’est pas le cas, « non imposable »). 
@@ -86,7 +86,9 @@
         </div>
         <hr>
         <div>
-            <a href=" ./exo10.php" title="exo10">exo10</a>
+            <a href=" ./exo10.php" title="exo10">exo10</a> 
+            <br>
+            <a href=" ./exo10bis.php" title="exo10bis">exo10bis</a>
             <p>
             A partir d’un montant à payer et d’une somme versée pour régler un achat, écrire l’algorithme qui affiche à un utilisateur un rendu de monnaie en nombre de billets de 10 € et 5 €, pièces de 2 € et 1 €.
             </p>
