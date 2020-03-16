@@ -4,14 +4,14 @@
 <?php
 
 function cat_age($param){
-    if ($param >= 6 && $param<=7){
-        echo "L’enfant qui a " . $param. " ans appartient à la catégorie « poussin »"; 
-    }elseif ($param >= 8 && $param <=9){
-        echo "L’enfant qui a " . $param. " ans appartient à la catégorie « Pupille »"; 
-    }elseif ($param >= 10 && $param <= 11 ) {
-        echo "L’enfant qui a " . $param. " ans appartient à la catégorie « Minime »"; 
-    }elseif ($param >= 12) {
+    if ($param >= 12){
         echo "L’enfant qui a " . $param. " ans appartient à la catégorie « cadet »"; 
+    }elseif ($param <= 11){
+        echo "L’enfant qui a " . $param. " ans appartient à la catégorie « Minime »"; 
+    }elseif ($param <=9) {
+        echo "L’enfant qui a " . $param. " ans appartient à la catégorie « Pupille »"; 
+    }elseif ($param >= 6 && $param<=7) {
+        echo "L’enfant qui a " . $param. " ans appartient à la catégorie « poussin »"; 
     }else {
         echo "l'enfent est trop jeune pour rentrer dans une catégorie.";
     }

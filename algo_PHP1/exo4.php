@@ -8,7 +8,11 @@ $txt1 = "engage le jeu que je le gagne";
 
 
 function text_pallin($param){
-    $a= str_replace(" " ,"",$param);
+    $a= strtr($param,"ÀÁÂÃÄÅàáâãäåÒÓÔÕÖØòóôõöøÈÉÊËèéêëÇçÌÍÎÏìíîïÙÚÛÜùúûüÿÑñ"
+    ,"aaaaaaaaaaaaooooooooooooeeeeeeeecciiiiiiiiuuuuuuuuynn");
+    $special = array(" ", "!", ":", "?", ".", "/", "$", "&", "%", "'", ",");
+    $a = strtolower(str_replace($special,"",$a));
+  
     $inverse = strrev($a);
     if($a == $inverse){
         echo 'La phrase "' . $param . ' " est un palindrome';
