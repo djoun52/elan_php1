@@ -45,7 +45,7 @@ class person
     {
         $date= new DateTime("now");
         $diff=date_diff($this->get_age(),$date);
-        echo  $this->get_nom(). ", "  .$this->get_prenom() . ", " . $diff->format("'%y Year") . "<br>"; 
+        echo  $this->get_nom(). "  "  .$this->get_prenom() . " à " . $diff->format("%y ans") . "<br>"; 
         
        
         return;
