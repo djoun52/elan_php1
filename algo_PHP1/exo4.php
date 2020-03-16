@@ -4,17 +4,19 @@
 <?php
 
 
-$txt1 = "Notre formation DL commence aujourd'hui";
-$txt2 = "bonjour à tous";
+$txt1 = "engage le jeu que je le gagne";
 
 
-function text_taille($param){
-    $x=str_word_count($param);
-    echo "La phrase «" . $param . "» contient " . $x . " mots. <br>" ;
+function text_pallin($param){
+    $a= str_replace(" " ,"",$param);
+    $inverse = strrev($a);
+    if($a == $inverse){
+        echo 'La phrase "' . $param . ' " est un palindrome';
+    }else {
+        echo "La phrase :  $param  n'est pas un palindrome";
+}
     return;
 }
 
-text_taille($txt1);
-text_taille($txt2);
-
+text_pallin($txt1)
 ?>
