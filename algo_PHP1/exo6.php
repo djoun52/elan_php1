@@ -3,13 +3,9 @@
 
 <?php
 
-
-
-
-
 function facture($prix,$quant,$tva){
     $tax = $prix+ ($prix*$tva) ;
-    echo  "Prix unitaire de l’article : " . $prix  ."€ <br> Quantité : " . $quant . "<br> Taux de TVA : " . $tva . "<br> Le montant de la facture à régler est de : " . $tax . "€"; 
+    echo  "Prix unitaire de l’article : " . $prix  ."€ <br> Quantité : " . $quant . "<br> Taux de TVA : " . $tva . "<br> Le montant de la facture à régler est de : " . $tax . "€ <br>"; 
     return;
 }
 
