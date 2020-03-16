@@ -8,13 +8,15 @@ $txt1 = "Notre formation DL commence aujourd'hui";
 $txt2 = "bonjour à tous";
 
 
-function text_taille($param){
-    $x=str_word_count($param);
-    echo "La phrase «" . $param . "» contient " . $x . " mots. <br>" ;
-    return;
+function convert($param){
+    $s= $param*0.1524;
+    $form = number_format($s, 2, ',', ' ');
+    echo $form . "<br>";
+    return ;
 }
 
-text_taille($txt1);
-text_taille($txt2);
+convert(100);
+convert(1);
+convert(50);
 
 ?>

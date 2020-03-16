@@ -4,17 +4,17 @@
 <?php
 
 
-$txt1 = "Notre formation DL commence aujourd'hui";
-$txt2 = "bonjour à tous";
 
 
-function text_taille($param){
-    $x=str_word_count($param);
-    echo "La phrase «" . $param . "» contient " . $x . " mots. <br>" ;
+
+function facture($prix,$quant,$tva){
+    $tax = $prix+ ($prix*$tva) ;
+    echo  "Prix unitaire de l’article : " . $prix  ."€ <br> Quantité : " . $quant . "<br> Taux de TVA : " . $tva . "<br> Le montant de la facture à régler est de : " . $tax . "€"; 
     return;
 }
 
-text_taille($txt1);
-text_taille($txt2);
+facture(10,5,0.2);
+facture(100,4,0.2);
+
 
 ?>

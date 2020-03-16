@@ -7,12 +7,12 @@ $txt1 = "Notre formation DL commence aujourd'hui";
 
 
 
-function text_taille($param){
+function text_remplece($param){
     $x=str_replace("aujourd'hui","demain" ,$param);
     echo  $param . "<br>" . $x;
     return;
 }
 
-text_taille($txt1);
+text_remplece($txt1);
 
 ?>

@@ -50,7 +50,7 @@
         </div>
         <hr>
         <div>
-            <a href=" ./exo5.php" title="exo5">exo5</a>
+            <a href=" ./exo5.php" title="exo5">exo5 fait</a>
             <p>
             Ecrire un algorithme qui déclare une valeur en francs et qui la convertit en euros.  Attention, la valeur générée devra être arrondie à 2 décimales.
             </p>
