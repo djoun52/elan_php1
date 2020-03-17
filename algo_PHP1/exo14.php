@@ -7,7 +7,7 @@
 
 function age($param){
   
-   $date= new DateTime("now");
+   $date= new DateTime();
    $date1= new DateTime($param);
    $diff=date_diff($date1,$date);
    echo " age de la personne : " .$diff->format("%y ans %m mois %d jours") . "<br>";
