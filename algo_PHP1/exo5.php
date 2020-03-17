@@ -11,7 +11,7 @@ $txt2 = "bonjour à tous";
 function convert($param){
     $s= $param*0.1524;
     $form = number_format($s, 2, ',', ' ');
-    echo $form . "<br>";
+    echo "Montant en francs : $param <br> $param francs = $form € <br>";
     return ;
 }
 

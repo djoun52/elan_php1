@@ -43,7 +43,7 @@
         <hr>
 
         <div>
-            <a href=" ./exo4.php" title="exo4">exo4</a>
+            <a href=" ./exo4.php" title="exo4">exo4 fait</a>
             <p>
             Ecrire un algorithme permettant de savoir si une phrase est palindrome.
             </p>
@@ -86,44 +86,44 @@
         </div>
         <hr>
         <div>
-            <a href=" ./exo10.php" title="exo10">exo10</a> 
+            <a href=" ./exo10.php" title="exo10">exo10 boucle for</a> 
             <br>
-            <a href=" ./exo10bis.php" title="exo10bis">exo10bis</a>
+            <a href=" ./exo10bis.php" title="exo10bis">exo10bis intdiv</a>
             <p>
             A partir d’un montant à payer et d’une somme versée pour régler un achat, écrire l’algorithme qui affiche à un utilisateur un rendu de monnaie en nombre de billets de 10 € et 5 €, pièces de 2 € et 1 €.
             </p>
         </div>
         <hr>
         <div>
-            <a href=" ./exo11.php" title="exo11">exo11</a>
+            <a href=" ./exo11.php" title="exo11">exo11 fait</a>
             <p>
             Initialiser un tableau de x marques de voitures. Ecrire un algorithme permettant de parcourir ce tableau et d’en afficher le contenu (une marque de voiture par ligne). Il est également demandé d’afficher le nombre de marques de voitures présentes dans le tableau. 
             </p>
         </div>
         <hr>
         <div>
-            <a href=" ./exo12.php" title="exo12">exo12</a>
+            <a href=" ./exo12.php" title="exo12">exo12 fait</a>
             <p>
             A partir d’une fonction personnalisée et à partir d’un tableau de prénoms et de langue associée (tableau contenant clé et valeur), dire bonjour aux différentes personnes dans leur langue respective (français  « Salut », anglais  « Hello », espagnol  « Hola ») 
             </p>
         </div>
         <hr>
         <div>
-            <a href=" ./exo13.php" title="exo13">exo13</a>
+            <a href=" ./exo13.php" title="exo13">exo13 fait</a>
             <p>
             Calculer la moyenne générale d'un élève dont les notes sont renseignées dans un tableau (pas de coefficient). Elle devra être affichée avec 2 décimales.      
             </p>
         </div>
         <hr>
         <div>
-            <a href=" ./exo14.php" title="exo14">exo14</a>
+            <a href=" ./exo14.php" title="exo14">exo14 fait</a>
             <p>
             Calculer l'âge exact d'une personne à partir de sa date de naissance (en années, mois, jours)
             </p>
         </div>
         <hr>
         <div>
-            <a href=" ./exo15.php" title="exo15">exo15</a>
+            <a href=" ./exo15.php" title="exo15">exo15 fait</a>
             <p>
             Créer une classe Personne (nom, prénom et date de naissance).
             <br> 2 personnes et afficher leurs informations : nom, prénom et âge. 

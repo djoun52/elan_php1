@@ -12,6 +12,7 @@ function facture($prix,$quant,$tva){
 
 facture(10,5,0.2);
 facture(100,4,0.2);
+facture(9.99,5,0.2);
 
 
 ?>
