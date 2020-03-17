@@ -6,47 +6,47 @@ class Person
     // Properties
     private $nom ;
     private $prenom;
-    private $date_de_naissence;
+    private $dateDeNaissence;
    
    
     function __construct($c_nom,$c_prenom,$c_date_de_naissence)
     {
         $this-> nom = $c_nom;
         $this-> prenom = $c_prenom;
-        $this-> date_de_naissence = $c_date_de_naissence;
+        $this-> dateDeNaissence = $c_date_de_naissence;
 
     }
      // Methods
-     function get_nom()
+     function getNom()
     {
         return $this->nom;
     }
-    function set_nom($p_nom)
+    function setNom($p_nom)
     {
         $this->nom = $p_nom;
     }
-     function get_prenom()
+     function getPrenom()
     {
         return $this->prenom;
     }
-    function set_prenom($p_prenom)
+    function setPrenom($p_prenom)
     {
         $this->prenom = $p_prenom;
     }
-     function get_date_de_naissence()
+     function getDateDeNaissence()
     {
-        return $this->date_de_naissence;
+        return $this->dateDeNaissence;
     }
-    function set_date_de_naissence($p_date_de_naissence)
+    function setDateDeNaissence($p_date_de_naissence)
     {
-        $this->date_de_naissence= $p_date_de_naissence;
+        $this->dateDeNaissence= $p_date_de_naissence;
     }
     public function id()
     {
         $date= new DateTime();
-        $date1= new DateTime ($this->get_date_de_naissence());
+        $date1= new DateTime ($this->getDateDeNaissence());
         $diff=date_diff($date1,$date);
-        echo  $this->get_nom(). "  "  .$this->get_prenom() . " " . $diff->format("à %y ans") . "<br>"; 
+        echo  $this->getNom(). "  "  .$this->getPrenom() . " " . $diff->format("à %y ans") . "<br>"; 
     }
 }
 echo '<br>';
